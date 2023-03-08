@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MyDeal.TechTest": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53964;http://localhost:53965"
+    }
+  }
+}

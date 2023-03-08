@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDeal.TechTest", "MyDeal.TechTest\MyDeal.TechTest.csproj", "{BF975C3B-7B5A-40E3-AB10-FECC17CDC3FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeal.TechTest", "MyDeal.TechTest\MyDeal.TechTest.csproj", "{BF975C3B-7B5A-40E3-AB10-FECC17CDC3FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDeal.TechTest.Services", "MyDeal.TechTest.Services\MyDeal.TechTest.Services.csproj", "{8EC102E4-FFAA-4E46-A076-96F265618239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeal.TechTest.Services", "MyDeal.TechTest.Services\MyDeal.TechTest.Services.csproj", "{8EC102E4-FFAA-4E46-A076-96F265618239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDeal.TechTest.Services.Tests", "MyDeal.TechTest.Services.Tests\MyDeal.TechTest.Services.Tests.csproj", "{C34C6DEE-9E50-45CC-BA0B-CD76EE5DDD7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeal.TechTest.Services.Tests", "MyDeal.TechTest.Services.Tests\MyDeal.TechTest.Services.Tests.csproj", "{C34C6DEE-9E50-45CC-BA0B-CD76EE5DDD7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDeal.TechTest.Models", "MyDeal.TechTest.Models\MyDeal.TechTest.Models.csproj", "{663C5A4D-916A-425B-83E1-3B88CAA0DE8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDeal.TechTest.DataAccess", "MyDeal.TechTest.DataAccess\MyDeal.TechTest.DataAccess.csproj", "{F4E73975-6299-4663-BD0D-A5D1A04C7FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C34C6DEE-9E50-45CC-BA0B-CD76EE5DDD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34C6DEE-9E50-45CC-BA0B-CD76EE5DDD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34C6DEE-9E50-45CC-BA0B-CD76EE5DDD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663C5A4D-916A-425B-83E1-3B88CAA0DE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663C5A4D-916A-425B-83E1-3B88CAA0DE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663C5A4D-916A-425B-83E1-3B88CAA0DE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663C5A4D-916A-425B-83E1-3B88CAA0DE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E73975-6299-4663-BD0D-A5D1A04C7FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E73975-6299-4663-BD0D-A5D1A04C7FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E73975-6299-4663-BD0D-A5D1A04C7FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E73975-6299-4663-BD0D-A5D1A04C7FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
